@@ -1,0 +1,48 @@
+/*  Style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: red;
+  width: 375px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+  .box {
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    background-color: blue;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .box {
+    background-color: sienna;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    background-color: green;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .box {
+    background-color: purple;
+  }
+}
